@@ -1,0 +1,1000 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 11693 13170
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4300 8300 4500 8300
+Wire Wire Line
+	4500 8300 5000 8300
+Wire Wire Line
+	5000 8300 5000 8600
+Wire Wire Line
+	4300 8400 4500 8400
+Wire Wire Line
+	4500 8400 4500 8300
+Wire Wire Line
+	4300 8500 4500 8500
+Wire Wire Line
+	4500 8500 4500 8400
+Wire Wire Line
+	3700 8300 4500 8300
+Wire Wire Line
+	3700 8400 4500 8400
+Wire Wire Line
+	3700 8500 4300 8500
+Connection ~ 4500 8300
+Connection ~ 4500 8400
+Text Label 4300 8300 0    10   ~ 0
+GND
+Wire Wire Line
+	7000 7200 7000 7300
+Text Label 7000 7200 0    10   ~ 0
+GND
+Wire Wire Line
+	6300 9000 6300 9200
+Wire Wire Line
+	6300 9200 6300 9300
+Wire Wire Line
+	6300 9200 6900 9200
+Wire Wire Line
+	6900 9200 6900 9100
+Connection ~ 6300 9200
+Text Label 6300 9000 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 11000 5400 11100
+Wire Wire Line
+	5400 11100 5400 11200
+Wire Wire Line
+	5900 10800 5900 11100
+Wire Wire Line
+	5900 11100 5400 11100
+Connection ~ 5400 11100
+Text Label 5400 11000 0    10   ~ 0
+GND
+Wire Wire Line
+	8200 7300 8200 7200
+Wire Wire Line
+	8200 7200 8300 7200
+Text Label 8200 7300 0    10   ~ 0
+GND
+Wire Wire Line
+	2700 6900 2700 6400
+Wire Wire Line
+	2700 6400 3100 6400
+Text Label 2700 6900 0    10   ~ 0
+GND
+Wire Wire Line
+	5100 4800 5500 4800
+Text Label 5100 4800 0    10   ~ 0
+GND
+Wire Wire Line
+	2300 9500 2300 9800
+Wire Wire Line
+	2300 9800 2300 9900
+Wire Wire Line
+	2300 9900 2300 10100
+Wire Wire Line
+	3200 9600 3200 9800
+Wire Wire Line
+	3200 9800 2300 9800
+Wire Wire Line
+	3500 9600 3500 9900
+Wire Wire Line
+	3500 9900 2300 9900
+Connection ~ 2300 9800
+Connection ~ 2300 9900
+Text Label 2300 9500 0    10   ~ 0
+GND
+Wire Wire Line
+	8300 5800 8300 5700
+Wire Wire Line
+	8300 5700 8400 5700
+Text Label 8300 5800 0    10   ~ 0
+GND
+Wire Wire Line
+	3100 12000 3100 11900
+Text Label 3100 12000 0    10   ~ 0
+GND
+Wire Wire Line
+	1900 11800 1900 11900
+Text Label 1900 11800 0    10   ~ 0
+GND
+Wire Wire Line
+	5000 6400 5000 6500
+Text Label 5000 6400 0    10   ~ 0
+GND
+Wire Wire Line
+	7000 7000 7200 7000
+Wire Wire Line
+	6300 8700 6300 8800
+Wire Wire Line
+	6300 8800 6900 8800
+Wire Wire Line
+	6900 8800 7400 8800
+Connection ~ 6300 8800
+Connection ~ 6900 8800
+Text Label 7400 8800 0    70   ~ 0
+AREF_-10
+Wire Wire Line
+	7100 6500 7000 6500
+Text Label 7000 6500 0    70   ~ 0
+AREF_-10
+Wire Wire Line
+	6900 5200 6800 5200
+Text Label 6800 5200 0    70   ~ 0
+AREF_-10
+Wire Wire Line
+	8700 6700 8900 6700
+Wire Wire Line
+	8900 6700 8900 7100
+Wire Wire Line
+	8700 6300 8900 6300
+Wire Wire Line
+	8900 6300 8900 6700
+Wire Wire Line
+	8900 7100 9600 7100
+Connection ~ 8900 6700
+Text Label 9600 7100 0    70   ~ 0
+INP_1
+Connection ~ 8900 7100
+Wire Wire Line
+	4500 5300 4500 5100
+Text Label 4500 5100 0    70   ~ 0
+INP_1
+Wire Wire Line
+	8100 7000 8100 6700
+Wire Wire Line
+	8100 6700 8400 6700
+Wire Wire Line
+	8100 6700 8100 6300
+Wire Wire Line
+	8100 6300 8300 6300
+Wire Wire Line
+	7600 7000 7900 7000
+Wire Wire Line
+	7900 7000 8100 7000
+Wire Wire Line
+	7500 6500 7900 6500
+Wire Wire Line
+	7900 6500 7900 7000
+Wire Wire Line
+	8100 7000 8300 7000
+Connection ~ 8100 6700
+Connection ~ 7900 7000
+Connection ~ 8100 7000
+Wire Wire Line
+	6300 8200 6300 8300
+Text Label 6300 8200 0    10   ~ 0
+-12V
+Wire Wire Line
+	5600 9600 5700 9600
+Text Label 5600 9600 0    10   ~ 0
+-12V
+Wire Wire Line
+	5400 10200 5400 10300
+Wire Wire Line
+	5400 10300 5400 10400
+Wire Wire Line
+	5400 10300 5900 10300
+Wire Wire Line
+	5900 10300 5900 10500
+Connection ~ 5400 10300
+Text Label 5400 10200 0    10   ~ 0
++5V
+Wire Wire Line
+	2600 9200 3200 9200
+Wire Wire Line
+	3200 9200 3500 9200
+Wire Wire Line
+	3500 9200 3900 9200
+Wire Wire Line
+	3200 9200 3200 9300
+Wire Wire Line
+	3500 9200 3500 9300
+Connection ~ 3200 9200
+Connection ~ 3500 9200
+Text Label 2600 9200 0    10   ~ 0
++5V
+Wire Wire Line
+	3000 7000 3000 7300
+Text Label 3000 7000 0    10   ~ 0
++5V
+Wire Wire Line
+	3000 6600 3000 6900
+Wire Wire Line
+	3000 6600 3100 6600
+Wire Wire Line
+	3700 8600 4300 8600
+Wire Wire Line
+	4300 8600 4300 9400
+Wire Wire Line
+	4300 9400 4900 9400
+Connection ~ 4300 8600
+Wire Wire Line
+	3700 8200 4300 8200
+Wire Wire Line
+	4300 8200 4300 9800
+Wire Wire Line
+	4300 9800 4900 9800
+Connection ~ 4300 8200
+Wire Wire Line
+	1800 9200 2000 9200
+Text Label 1800 9200 0    10   ~ 0
++12V
+Wire Wire Line
+	4100 10100 4000 10100
+Text Label 4100 10100 0    10   ~ 0
++12V
+Wire Wire Line
+	3100 6200 2800 6200
+Text Label 2800 6200 0    70   ~ 0
++3V3
+Wire Wire Line
+	5500 4900 5300 4900
+Text Label 5300 4900 0    70   ~ 0
++3V3
+Wire Wire Line
+	3100 10900 3100 10800
+Text Label 3100 10800 0    70   ~ 0
++3V3
+Wire Wire Line
+	8900 5100 9100 5100
+Wire Wire Line
+	9100 5100 9100 5500
+Wire Wire Line
+	8900 4700 9100 4700
+Wire Wire Line
+	9100 4700 9100 5100
+Wire Wire Line
+	9000 5600 9000 5500
+Wire Wire Line
+	9000 5500 9100 5500
+Wire Wire Line
+	9000 5600 9400 5600
+Connection ~ 9100 5100
+Connection ~ 9000 5600
+Text Label 9400 5600 0    70   ~ 0
+INP_2
+Wire Wire Line
+	4400 5300 4400 5100
+Text Label 4400 5100 0    70   ~ 0
+INP_2
+Wire Wire Line
+	7200 5500 7400 5500
+Wire Wire Line
+	7800 5500 8100 5500
+Wire Wire Line
+	8300 5400 8300 5200
+Wire Wire Line
+	8300 5200 8300 5100
+Wire Wire Line
+	8300 5100 8600 5100
+Wire Wire Line
+	8300 5100 8300 4700
+Wire Wire Line
+	8300 4700 8500 4700
+Wire Wire Line
+	8400 5500 8400 5400
+Wire Wire Line
+	8400 5400 8300 5400
+Wire Wire Line
+	7300 5200 8300 5200
+Wire Wire Line
+	8100 5500 8100 5400
+Wire Wire Line
+	8100 5400 8300 5400
+Connection ~ 8300 5100
+Connection ~ 8300 5200
+Connection ~ 8300 5400
+Wire Wire Line
+	2500 11600 2700 11600
+Wire Wire Line
+	1900 11600 2100 11600
+Wire Wire Line
+	4700 9600 4500 9600
+Wire Wire Line
+	4500 9600 4500 10100
+Wire Wire Line
+	5100 9600 5200 9600
+$Comp
+L euroosc-eagle-import:M05X2PTH JP1
+U 1 1 0B60073D
+P 4000 8400
+AR Path="/0B60073D" Ref="JP1"  Part="1" 
+AR Path="/601B3F32/0B60073D" Ref="JP1"  Part="1" 
+F 0 "JP1" H 3900 8730 59  0000 L BNN
+F 1 "M05X2PTH" H 3900 8000 59  0000 L BNN
+F 2 "euroosc:AVR_ICSP" H 4000 8400 50  0001 C CNN
+F 3 "" H 4000 8400 50  0001 C CNN
+	1    4000 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND1
+U 1 1 8DA2BB24
+P 7000 7400
+AR Path="/8DA2BB24" Ref="#GND1"  Part="1" 
+AR Path="/601B3F32/8DA2BB24" Ref="#GND01"  Part="1" 
+F 0 "#GND01" H 7000 7400 50  0001 C CNN
+F 1 "GND" H 6900 7300 59  0000 L BNN
+F 2 "" H 7000 7400 50  0001 C CNN
+F 3 "" H 7000 7400 50  0001 C CNN
+	1    7000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND5
+U 1 1 5B6A58CA
+P 5000 8700
+AR Path="/5B6A58CA" Ref="#GND5"  Part="1" 
+AR Path="/601B3F32/5B6A58CA" Ref="#GND05"  Part="1" 
+F 0 "#GND05" H 5000 8700 50  0001 C CNN
+F 1 "GND" H 4900 8600 59  0000 L BNN
+F 2 "" H 5000 8700 50  0001 C CNN
+F 3 "" H 5000 8700 50  0001 C CNN
+	1    5000 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:WQP-PJ301M-12_JACK J1
+U 1 1 449C7C68
+P 6800 7100
+AR Path="/449C7C68" Ref="J1"  Part="1" 
+AR Path="/601B3F32/449C7C68" Ref="J1"  Part="1" 
+F 0 "J1" H 6700 7260 59  0000 L BNN
+F 1 "WQP-PJ301M-12_JACK" H 6700 6860 59  0000 L BNN
+F 2 "euroosc:WQP-PJ301M-12_JACK" H 6800 7100 50  0001 C CNN
+F 3 "" H 6800 7100 50  0001 C CNN
+	1    6800 7100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:WQP-PJ301M-12_JACK J2
+U 1 1 C3E76336
+P 7000 5600
+AR Path="/C3E76336" Ref="J2"  Part="1" 
+AR Path="/601B3F32/C3E76336" Ref="J2"  Part="1" 
+F 0 "J2" H 6900 5760 59  0000 L BNN
+F 1 "WQP-PJ301M-12_JACK" H 6900 5360 59  0000 L BNN
+F 2 "euroosc:WQP-PJ301M-12_JACK" H 7000 5600 50  0001 C CNN
+F 3 "" H 7000 5600 50  0001 C CNN
+	1    7000 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:R-US_R0603 R1
+U 1 1 413CE448
+P 7300 6500
+AR Path="/413CE448" Ref="R1"  Part="1" 
+AR Path="/601B3F32/413CE448" Ref="R1"  Part="1" 
+F 0 "R1" H 7150 6559 59  0000 L BNN
+F 1 "200K" H 7150 6370 59  0000 L BNN
+F 2 "euroosc:R0603" H 7300 6500 50  0001 C CNN
+F 3 "" H 7300 6500 50  0001 C CNN
+	1    7300 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:R-US_R0603 R2
+U 1 1 D4308329
+P 8500 6300
+AR Path="/D4308329" Ref="R2"  Part="1" 
+AR Path="/601B3F32/D4308329" Ref="R2"  Part="1" 
+F 0 "R2" H 8350 6359 59  0000 L BNN
+F 1 "33K" H 8350 6170 59  0000 L BNN
+F 2 "euroosc:R0603" H 8500 6300 50  0001 C CNN
+F 3 "" H 8500 6300 50  0001 C CNN
+	1    8500 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:R-US_R0603 R3
+U 1 1 B5500E06
+P 7400 7000
+AR Path="/B5500E06" Ref="R3"  Part="1" 
+AR Path="/601B3F32/B5500E06" Ref="R3"  Part="1" 
+F 0 "R3" H 7250 7059 59  0000 L BNN
+F 1 "200K" H 7250 6870 59  0000 L BNN
+F 2 "euroosc:R0603" H 7400 7000 50  0001 C CNN
+F 3 "" H 7400 7000 50  0001 C CNN
+	1    7400 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:LM4041DBZ IC2
+U 1 1 BC34DC86
+P 6300 8900
+AR Path="/BC34DC86" Ref="IC2"  Part="1" 
+AR Path="/601B3F32/BC34DC86" Ref="IC2"  Part="1" 
+F 0 "IC2" H 6410 8975 59  0000 L BNN
+F 1 "LM4041DBZ" H 6410 8865 59  0000 L BNN
+F 2 "euroosc:DBZ_R-PDSO-G3" H 6300 8900 50  0001 C CNN
+F 3 "" H 6300 8900 50  0001 C CNN
+	1    6300 8900
+	-1   0    0    1   
+$EndComp
+$Comp
+L euroosc-eagle-import:C-USC0603 C1
+U 1 1 6F15D83B
+P 8500 6700
+AR Path="/6F15D83B" Ref="C1"  Part="1" 
+AR Path="/601B3F32/6F15D83B" Ref="C1"  Part="1" 
+F 0 "C1" H 8540 6725 59  0000 L BNN
+F 1 "1n" H 8540 6535 59  0000 L BNN
+F 2 "euroosc:C0603" H 8500 6700 50  0001 C CNN
+F 3 "" H 8500 6700 50  0001 C CNN
+	1    8500 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L euroosc-eagle-import:C-USC0603 C2
+U 1 1 AEC71D01
+P 6900 8900
+AR Path="/AEC71D01" Ref="C2"  Part="1" 
+AR Path="/601B3F32/AEC71D01" Ref="C2"  Part="1" 
+F 0 "C2" H 6940 8925 59  0000 L BNN
+F 1 "100n" H 6940 8735 59  0000 L BNN
+F 2 "euroosc:C0603" H 6900 8900 50  0001 C CNN
+F 3 "" H 6900 8900 50  0001 C CNN
+	1    6900 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:R-US_R0603 R4
+U 1 1 6998F94A
+P 6300 8500
+AR Path="/6998F94A" Ref="R4"  Part="1" 
+AR Path="/601B3F32/6998F94A" Ref="R4"  Part="1" 
+F 0 "R4" H 6150 8559 59  0000 L BNN
+F 1 "470R" H 6150 8370 59  0000 L BNN
+F 2 "euroosc:R0603" H 6300 8500 50  0001 C CNN
+F 3 "" H 6300 8500 50  0001 C CNN
+	1    6300 8500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND2
+U 1 1 4877C9E2
+P 6300 9400
+AR Path="/4877C9E2" Ref="#GND2"  Part="1" 
+AR Path="/601B3F32/4877C9E2" Ref="#GND02"  Part="1" 
+F 0 "#GND02" H 6300 9400 50  0001 C CNN
+F 1 "GND" H 6200 9300 59  0000 L BNN
+F 2 "" H 6300 9400 50  0001 C CNN
+F 3 "" H 6300 9400 50  0001 C CNN
+	1    6300 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND3
+U 1 1 21137572
+P 8200 7400
+AR Path="/21137572" Ref="#GND3"  Part="1" 
+AR Path="/601B3F32/21137572" Ref="#GND03"  Part="1" 
+F 0 "#GND03" H 8200 7400 50  0001 C CNN
+F 1 "GND" H 8100 7300 59  0000 L BNN
+F 2 "" H 8200 7400 50  0001 C CNN
+F 3 "" H 8200 7400 50  0001 C CNN
+	1    8200 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:-12V #P-1
+U 1 1 D1E0A846
+P 5800 9600
+AR Path="/D1E0A846" Ref="#P-1"  Part="1" 
+AR Path="/601B3F32/D1E0A846" Ref="#P-01"  Part="1" 
+F 0 "#P-01" H 5800 9600 50  0001 C CNN
+F 1 "-12V" V 5700 9500 59  0000 L BNN
+F 2 "" H 5800 9600 50  0001 C CNN
+F 3 "" H 5800 9600 50  0001 C CNN
+	1    5800 9600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L euroosc-eagle-import:+12V #P+1
+U 1 1 6A081B6E
+P 3900 10100
+AR Path="/6A081B6E" Ref="#P+1"  Part="1" 
+AR Path="/601B3F32/6A081B6E" Ref="#P+01"  Part="1" 
+F 0 "#P+01" H 3900 10100 50  0001 C CNN
+F 1 "+12V" V 3800 9900 59  0000 L BNN
+F 2 "" H 3900 10100 50  0001 C CNN
+F 3 "" H 3900 10100 50  0001 C CNN
+	1    3900 10100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L euroosc-eagle-import:-12V #P-2
+U 1 1 BDEAD289
+P 6300 8100
+AR Path="/BDEAD289" Ref="#P-2"  Part="1" 
+AR Path="/601B3F32/BDEAD289" Ref="#P-02"  Part="1" 
+F 0 "#P-02" H 6300 8100 50  0001 C CNN
+F 1 "-12V" V 6200 8000 59  0000 L BNN
+F 2 "" H 6300 8100 50  0001 C CNN
+F 3 "" H 6300 8100 50  0001 C CNN
+	1    6300 8100
+	-1   0    0    1   
+$EndComp
+$Comp
+L euroosc-eagle-import:+5V #P+2
+U 1 1 637B3A6A
+P 5400 10100
+AR Path="/637B3A6A" Ref="#P+2"  Part="1" 
+AR Path="/601B3F32/637B3A6A" Ref="#P+02"  Part="1" 
+F 0 "#P+02" H 5400 10100 50  0001 C CNN
+F 1 "+5V" V 5300 9900 59  0000 L BNN
+F 2 "" H 5400 10100 50  0001 C CNN
+F 3 "" H 5400 10100 50  0001 C CNN
+	1    5400 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:C-USC0603 C3
+U 1 1 EE7D9419
+P 5900 10600
+AR Path="/EE7D9419" Ref="C3"  Part="1" 
+AR Path="/601B3F32/EE7D9419" Ref="C3"  Part="1" 
+F 0 "C3" H 5940 10625 59  0000 L BNN
+F 1 "100n" H 5940 10435 59  0000 L BNN
+F 2 "euroosc:C0603" H 5900 10600 50  0001 C CNN
+F 3 "" H 5900 10600 50  0001 C CNN
+	1    5900 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND4
+U 1 1 12C122FD
+P 5400 11300
+AR Path="/12C122FD" Ref="#GND4"  Part="1" 
+AR Path="/601B3F32/12C122FD" Ref="#GND04"  Part="1" 
+F 0 "#GND04" H 5400 11300 50  0001 C CNN
+F 1 "GND" H 5300 11100 59  0000 L BNN
+F 2 "" H 5400 11300 50  0001 C CNN
+F 3 "" H 5400 11300 50  0001 C CNN
+	1    5400 11300
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND6
+U 1 1 F6847280
+P 2700 7000
+AR Path="/F6847280" Ref="#GND6"  Part="1" 
+AR Path="/601B3F32/F6847280" Ref="#GND06"  Part="1" 
+F 0 "#GND06" H 2700 7000 50  0001 C CNN
+F 1 "GND" H 2600 6900 59  0000 L BNN
+F 2 "" H 2700 7000 50  0001 C CNN
+F 3 "" H 2700 7000 50  0001 C CNN
+	1    2700 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:MA07-1 OLED1
+U 1 1 62471FC6
+P 5800 5100
+AR Path="/62471FC6" Ref="OLED1"  Part="1" 
+AR Path="/601B3F32/62471FC6" Ref="OLED1"  Part="1" 
+F 0 "OLED1" H 5750 5530 59  0000 L BNN
+F 1 "MA07-1" H 5750 4600 59  0000 L BNN
+F 2 "euroosc:MA07-1" H 5800 5100 50  0001 C CNN
+F 3 "" H 5800 5100 50  0001 C CNN
+	1    5800 5100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:PINHD-1X2 JP2
+U 1 1 BAFA783C
+P 3100 7000
+AR Path="/BAFA783C" Ref="JP2"  Part="1" 
+AR Path="/601B3F32/BAFA783C" Ref="JP2"  Part="1" 
+F 0 "JP2" H 2850 7225 59  0000 L BNN
+F 1 "PINHD-1X2" H 2850 6800 59  0000 L BNN
+F 2 "euroosc:1X02" H 3100 7000 50  0001 C CNN
+F 3 "" H 3100 7000 50  0001 C CNN
+	1    3100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND7
+U 1 1 C2693486
+P 5000 4800
+AR Path="/C2693486" Ref="#GND7"  Part="1" 
+AR Path="/601B3F32/C2693486" Ref="#GND07"  Part="1" 
+F 0 "#GND07" H 5000 4800 50  0001 C CNN
+F 1 "GND" H 4900 4700 59  0000 L BNN
+F 2 "" H 5000 4800 50  0001 C CNN
+F 3 "" H 5000 4800 50  0001 C CNN
+	1    5000 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L euroosc-eagle-import:MBS B1
+U 1 1 E7971931
+P 4900 9600
+AR Path="/E7971931" Ref="B1"  Part="1" 
+AR Path="/601B3F32/E7971931" Ref="B1"  Part="1" 
+F 0 "B1" H 4900 9900 59  0000 L BNN
+F 1 "MBS" H 4900 9200 59  0000 L BNN
+F 2 "euroosc:SOIC-4" H 4900 9600 50  0001 C CNN
+F 3 "" H 4900 9600 50  0001 C CNN
+	1    4900 9600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:LD117A?DT IC3
+U 1 1 B686635D
+P 2300 9200
+AR Path="/B686635D" Ref="IC3"  Part="1" 
+AR Path="/601B3F32/B686635D" Ref="IC3"  Part="1" 
+F 0 "IC3" H 2400 8900 59  0000 L BNN
+F 1 "LD117A?DT" H 2400 8800 59  0000 L BNN
+F 2 "euroosc:DPACK" H 2300 9200 50  0001 C CNN
+F 3 "" H 2300 9200 50  0001 C CNN
+	1    2300 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:+12V #P+3
+U 1 1 48C2C5DB
+P 1700 9200
+AR Path="/48C2C5DB" Ref="#P+3"  Part="1" 
+AR Path="/601B3F32/48C2C5DB" Ref="#P+03"  Part="1" 
+F 0 "#P+03" H 1700 9200 50  0001 C CNN
+F 1 "+12V" V 1600 9000 59  0000 L BNN
+F 2 "" H 1700 9200 50  0001 C CNN
+F 3 "" H 1700 9200 50  0001 C CNN
+	1    1700 9200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND8
+U 1 1 E3161DBF
+P 2300 10200
+AR Path="/E3161DBF" Ref="#GND8"  Part="1" 
+AR Path="/601B3F32/E3161DBF" Ref="#GND08"  Part="1" 
+F 0 "#GND08" H 2300 10200 50  0001 C CNN
+F 1 "GND" H 2200 10100 59  0000 L BNN
+F 2 "" H 2300 10200 50  0001 C CNN
+F 3 "" H 2300 10200 50  0001 C CNN
+	1    2300 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:+5V #P+4
+U 1 1 459FCD94
+P 4000 9200
+AR Path="/459FCD94" Ref="#P+4"  Part="1" 
+AR Path="/601B3F32/459FCD94" Ref="#P+04"  Part="1" 
+F 0 "#P+04" H 4000 9200 50  0001 C CNN
+F 1 "+5V" V 3900 9000 59  0000 L BNN
+F 2 "" H 4000 9200 50  0001 C CNN
+F 3 "" H 4000 9200 50  0001 C CNN
+	1    4000 9200
+	0    1    -1   0   
+$EndComp
+$Comp
+L euroosc-eagle-import:CPOL-USC C4
+U 1 1 8B5AD75A
+P 3200 9400
+AR Path="/8B5AD75A" Ref="C4"  Part="1" 
+AR Path="/601B3F32/8B5AD75A" Ref="C4"  Part="1" 
+F 0 "C4" H 3340 9425 59  0000 L BNN
+F 1 "CPOL-USC" H 3240 9235 59  0000 L BNN
+F 2 "euroosc:PANASONIC_C" H 3200 9400 50  0001 C CNN
+F 3 "" H 3200 9400 50  0001 C CNN
+	1    3200 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:C-USC0603 C5
+U 1 1 4DEA9544
+P 3500 9400
+AR Path="/4DEA9544" Ref="C5"  Part="1" 
+AR Path="/601B3F32/4DEA9544" Ref="C5"  Part="1" 
+F 0 "C5" H 3540 9425 59  0000 L BNN
+F 1 "100n" H 3540 9235 59  0000 L BNN
+F 2 "euroosc:C0603" H 3500 9400 50  0001 C CNN
+F 3 "" H 3500 9400 50  0001 C CNN
+	1    3500 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:WQP-PJ301M-12_JACK J3
+U 1 1 B665FDA9
+P 1700 11700
+AR Path="/B665FDA9" Ref="J3"  Part="1" 
+AR Path="/601B3F32/B665FDA9" Ref="J3"  Part="1" 
+F 0 "J3" H 1600 11860 59  0000 L BNN
+F 1 "WQP-PJ301M-12_JACK" H 1600 11460 59  0000 L BNN
+F 2 "euroosc:WQP-PJ301M-12_JACK" H 1700 11700 50  0001 C CNN
+F 3 "" H 1700 11700 50  0001 C CNN
+	1    1700 11700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:PEC11R-4220F-S0024 VR1
+U 1 1 433A5D7F
+P 7700 10000
+AR Path="/433A5D7F" Ref="VR1"  Part="1" 
+AR Path="/601B3F32/433A5D7F" Ref="VR1"  Part="1" 
+F 0 "VR1" H 8550 10500 59  0000 L CNN
+F 1 "PEC11R-4220F-S0024" H 8550 10400 59  0000 L CNN
+F 2 "euroosc:PEC11R4220FS0024" H 7700 10000 50  0001 C CNN
+F 3 "" H 7700 10000 50  0001 C CNN
+	1    7700 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:TL072D IC4
+U 1 1 61428CB7
+P 8600 7100
+AR Path="/61428CB7" Ref="IC4"  Part="1" 
+AR Path="/601B3F32/61428CB7" Ref="IC4"  Part="1" 
+F 0 "IC4" H 8700 7225 59  0001 L BNN
+F 1 "MCP6002" H 8700 6900 59  0001 L BNN
+F 2 "euroosc:SO08" H 8600 7100 50  0001 C CNN
+F 3 "" H 8600 7100 50  0001 C CNN
+	1    8600 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:TL072D IC4
+U 2 1 61428CBB
+P 8700 5600
+AR Path="/61428CBB" Ref="IC4"  Part="2" 
+AR Path="/601B3F32/61428CBB" Ref="IC4"  Part="2" 
+F 0 "IC4" H 8800 5725 59  0001 L BNN
+F 1 "MCP6002" H 8800 5400 59  0001 L BNN
+F 2 "euroosc:SO08" H 8700 5600 50  0001 C CNN
+F 3 "" H 8700 5600 50  0001 C CNN
+	2    8700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:TL072D IC4
+U 3 1 61428CBF
+P 5400 10700
+AR Path="/61428CBF" Ref="IC4"  Part="3" 
+AR Path="/601B3F32/61428CBF" Ref="IC4"  Part="3" 
+F 0 "IC4" H 5500 10825 59  0001 L BNN
+F 1 "MCP6002" H 5500 10500 59  0001 L BNN
+F 2 "euroosc:SO08" H 5400 10700 50  0001 C CNN
+F 3 "" H 5400 10700 50  0001 C CNN
+	3    5400 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:SMMBT3904LT1G Q1
+U 1 1 22BC07EB
+P 2700 11600
+AR Path="/22BC07EB" Ref="Q1"  Part="1" 
+AR Path="/601B3F32/22BC07EB" Ref="Q1"  Part="1" 
+F 0 "Q1" H 3250 11650 59  0000 L CNN
+F 1 "SMMBT3904LT1G" H 3250 11550 59  0000 L CNN
+F 2 "euroosc:SOT96P237X111-3N" H 2700 11600 50  0001 C CNN
+F 3 "" H 2700 11600 50  0001 C CNN
+	1    2700 11600
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:R-US_R0603 R6
+U 1 1 0EBC3F2D
+P 10700 800
+AR Path="/0EBC3F2D" Ref="R6"  Part="1" 
+AR Path="/601B3F32/0EBC3F2D" Ref="R6"  Part="1" 
+F 0 "R6" H 10550 859 59  0000 L BNN
+F 1 "200K" H 10550 670 59  0000 L BNN
+F 2 "euroosc:R0603" H 10700 800 50  0001 C CNN
+F 3 "" H 10700 800 50  0001 C CNN
+	1    10700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:R-US_R0603 R7
+U 1 1 184A3E63
+P 2300 11600
+AR Path="/184A3E63" Ref="R7"  Part="1" 
+AR Path="/601B3F32/184A3E63" Ref="R7"  Part="1" 
+F 0 "R7" H 2150 11659 59  0000 L BNN
+F 1 "100K" H 2150 11470 59  0000 L BNN
+F 2 "euroosc:R0603" H 2300 11600 50  0001 C CNN
+F 3 "" H 2300 11600 50  0001 C CNN
+	1    2300 11600
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:R-US_R0603 R8
+U 1 1 B154411E
+P 3100 11100
+AR Path="/B154411E" Ref="R8"  Part="1" 
+AR Path="/601B3F32/B154411E" Ref="R8"  Part="1" 
+F 0 "R8" H 2950 11159 59  0000 L BNN
+F 1 "10K" H 2950 10970 59  0000 L BNN
+F 2 "euroosc:R0603" H 3100 11100 50  0001 C CNN
+F 3 "" H 3100 11100 50  0001 C CNN
+	1    3100 11100
+	0    1    1    0   
+$EndComp
+$Comp
+L euroosc-eagle-import:R-US_R0603 R5
+U 1 1 9B8BD7CB
+P 8700 4700
+AR Path="/9B8BD7CB" Ref="R5"  Part="1" 
+AR Path="/601B3F32/9B8BD7CB" Ref="R5"  Part="1" 
+F 0 "R5" H 8550 4759 59  0000 L BNN
+F 1 "33K" H 8550 4570 59  0000 L BNN
+F 2 "euroosc:R0603" H 8700 4700 50  0001 C CNN
+F 3 "" H 8700 4700 50  0001 C CNN
+	1    8700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:C-USC0603 C6
+U 1 1 471DBA3C
+P 8700 5100
+AR Path="/471DBA3C" Ref="C6"  Part="1" 
+AR Path="/601B3F32/471DBA3C" Ref="C6"  Part="1" 
+F 0 "C6" H 8740 5125 59  0000 L BNN
+F 1 "1n" H 8740 4935 59  0000 L BNN
+F 2 "euroosc:C0603" H 8700 5100 50  0001 C CNN
+F 3 "" H 8700 5100 50  0001 C CNN
+	1    8700 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND9
+U 1 1 FD0A31A1
+P 8300 5900
+AR Path="/FD0A31A1" Ref="#GND9"  Part="1" 
+AR Path="/601B3F32/FD0A31A1" Ref="#GND09"  Part="1" 
+F 0 "#GND09" H 8300 5900 50  0001 C CNN
+F 1 "GND" H 8200 5800 59  0000 L BNN
+F 2 "" H 8300 5900 50  0001 C CNN
+F 3 "" H 8300 5900 50  0001 C CNN
+	1    8300 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:R-US_R0603 R9
+U 1 1 3C04D1BD
+P 7100 5200
+AR Path="/3C04D1BD" Ref="R9"  Part="1" 
+AR Path="/601B3F32/3C04D1BD" Ref="R9"  Part="1" 
+F 0 "R9" H 6950 5259 59  0000 L BNN
+F 1 "200K" H 6950 5070 59  0000 L BNN
+F 2 "euroosc:R0603" H 7100 5200 50  0001 C CNN
+F 3 "" H 7100 5200 50  0001 C CNN
+	1    7100 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:R-US_R0603 R10
+U 1 1 DE49CE56
+P 7600 5500
+AR Path="/DE49CE56" Ref="R10"  Part="1" 
+AR Path="/601B3F32/DE49CE56" Ref="R10"  Part="1" 
+F 0 "R10" H 7450 5559 59  0000 L BNN
+F 1 "200K" H 7450 5370 59  0000 L BNN
+F 2 "euroosc:R0603" H 7600 5500 50  0001 C CNN
+F 3 "" H 7600 5500 50  0001 C CNN
+	1    7600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND10
+U 1 1 0087CD10
+P 3100 12100
+AR Path="/0087CD10" Ref="#GND10"  Part="1" 
+AR Path="/601B3F32/0087CD10" Ref="#GND010"  Part="1" 
+F 0 "#GND010" H 3100 12100 50  0001 C CNN
+F 1 "GND" H 3000 11900 59  0000 L BNN
+F 2 "" H 3100 12100 50  0001 C CNN
+F 3 "" H 3100 12100 50  0001 C CNN
+	1    3100 12100
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND11
+U 1 1 5518330F
+P 1900 12000
+AR Path="/5518330F" Ref="#GND11"  Part="1" 
+AR Path="/601B3F32/5518330F" Ref="#GND011"  Part="1" 
+F 0 "#GND011" H 1900 12000 50  0001 C CNN
+F 1 "GND" H 1800 11800 59  0000 L BNN
+F 2 "" H 1900 12000 50  0001 C CNN
+F 3 "" H 1900 12000 50  0001 C CNN
+	1    1900 12000
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:MOMENTARY-SWITCH-SPST-PTH-6.0MM-KIT S1
+U 1 1 788C9994
+P 8500 8100
+AR Path="/788C9994" Ref="S1"  Part="1" 
+AR Path="/601B3F32/788C9994" Ref="S1"  Part="1" 
+F 0 "S1" H 8500 8160 70  0000 C BNN
+F 1 "MOMENTARY-SWITCH-SPST-PTH-6.0MM-KIT" H 8500 8080 70  0000 C TNN
+F 2 "euroosc:TACTILE_SWITCH_PTH_6.0MM_KIT" H 8500 8100 50  0001 C CNN
+F 3 "" H 8500 8100 50  0001 C CNN
+	1    8500 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:WE-CBF_0603 L1
+U 1 1 FF1B59BB
+P 4300 10200
+AR Path="/FF1B59BB" Ref="L1"  Part="1" 
+AR Path="/601B3F32/FF1B59BB" Ref="L1"  Part="1" 
+F 0 "L1" H 4150 10400 59  0000 L BNN
+F 1 "WE-CBF_0603" H 4150 10150 59  0000 L BNN
+F 2 "euroosc:0603" H 4300 10200 50  0001 C CNN
+F 3 "" H 4300 10200 50  0001 C CNN
+	1    4300 10200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:WE-CBF_0603 L2
+U 1 1 B1AD6528
+P 5400 9700
+AR Path="/B1AD6528" Ref="L2"  Part="1" 
+AR Path="/601B3F32/B1AD6528" Ref="L2"  Part="1" 
+F 0 "L2" H 5250 9900 59  0000 L BNN
+F 1 "WE-CBF_0603" H 5250 9650 59  0000 L BNN
+F 2 "euroosc:0603" H 5400 9700 50  0001 C CNN
+F 3 "" H 5400 9700 50  0001 C CNN
+	1    5400 9700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L euroosc-eagle-import:TEENSY4.0RD U$1
+U 1 1 89E33A62
+P 4300 6100
+AR Path="/89E33A62" Ref="U$1"  Part="1" 
+AR Path="/601B3F32/89E33A62" Ref="U$1"  Part="1" 
+F 0 "U$1" H 4300 6100 50  0001 C CNN
+F 1 "TEENSY4.0RD" H 4300 6100 50  0001 C CNN
+F 2 "euroosc:TEENSY-3.2RD" H 4300 6100 50  0001 C CNN
+F 3 "" H 4300 6100 50  0001 C CNN
+	1    4300 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L euroosc-eagle-import:+5V #P+5
+U 1 1 57F4DC09
+P 3000 7400
+AR Path="/57F4DC09" Ref="#P+5"  Part="1" 
+AR Path="/601B3F32/57F4DC09" Ref="#P+05"  Part="1" 
+F 0 "#P+05" H 3000 7400 50  0001 C CNN
+F 1 "+5V" V 2900 7200 59  0000 L BNN
+F 2 "" H 3000 7400 50  0001 C CNN
+F 3 "" H 3000 7400 50  0001 C CNN
+	1    3000 7400
+	-1   0    0    1   
+$EndComp
+$Comp
+L euroosc-eagle-import:GND #GND12
+U 1 1 8C4C494A
+P 5000 6600
+AR Path="/8C4C494A" Ref="#GND12"  Part="1" 
+AR Path="/601B3F32/8C4C494A" Ref="#GND012"  Part="1" 
+F 0 "#GND012" H 5000 6600 50  0001 C CNN
+F 1 "GND" H 4900 6500 59  0000 L BNN
+F 2 "" H 5000 6600 50  0001 C CNN
+F 3 "" H 5000 6600 50  0001 C CNN
+	1    5000 6600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name euroosc-eagle-import)(type Legacy)(uri ${KIPRJMOD}/euroosc-eagle-import.lib)(options "")(descr ""))
+)
