@@ -39,8 +39,8 @@
 enum gatetype {NOTES_GATE,NOTE_TRIGGER,CC_GATE, MIDI_CLOCK };
 
 int clockDivision = 6;
-bool midiThru = true;
 // gateinfo structure contains info about the gate outputs
+bool midiThru = true;
 
 struct gateinfo {
   int MIDIchannel;        // MIDI channel it responds to

@@ -56,7 +56,7 @@ void maindisplay(void); // function prototype needed for BT connect and disconne
 
 // create display device
 #define OLED_RESET -1  // unused port - to keep the compiler happy
-Adafruit_SSD1306 display(OLED_RESET);
+Adafruit_SSD1306 display(128,32,&Wire,OLED_RESET); 
 
 struct SerialMIDISettings : public midi::DefaultSettings
 {
@@ -218,6 +218,15 @@ void readValue(int* param, int addr, int min, int max) {
   }
 }
 
+void readBool(bool* param, int addr) {
+  int v = EEPROM.read(addr);
+  if (v == 0) {
+    *param = false;
+  } else {
+    *param = true;
+  }
+}
+
 void readValueEnum(cvtype* param, int addr) {
   int v = EEPROM.read(addr);
   if (v == 0) {
@@ -325,6 +334,7 @@ void setup() {
   readValue(&gateout[2].CC_NOTE_num, 22, 0, 127);
   readValue(&gateout[3].CC_NOTE_num, 23, 0, 127);
   readValue(&clockDivision, 24, 0, 127);
+  readBool(&midiThru, 25);
 
   // timer for encoder sampling
   timer0 = timerBegin(0, 80, true);

@@ -95,6 +95,7 @@ result savesetup(void) {
   EEPROM.write(22, gateout[2].CC_NOTE_num);
   EEPROM.write(23, gateout[3].CC_NOTE_num);
   EEPROM.write(24, clockDivision);
+  EEPROM.write(25, midiThru);
 
   EEPROM.commit();
   delay(1);
@@ -224,7 +225,7 @@ TOGGLE(cvins[3].polarity, subMenu_IN_D_POLARITY, "POLARITY: ", doNothing, noEven
        VALUE("BIPOLAR", BIPOLAR, doNothing, noEvent)
       );
 
-SELECT(clockDivision, subMenu_Clock_div, "Clock Cfg", doNothing, noEvent, wrapStyle,
+SELECT(clockDivision, subMenu_Clock_div, "Clock Cfg:", doNothing, noEvent, wrapStyle,
        VALUE("1/4", 24, doNothing, noEvent),
        VALUE("1/4T", 16, doNothing, noEvent),
        VALUE("1/8D", 18, doNothing, noEvent),
@@ -234,6 +235,12 @@ SELECT(clockDivision, subMenu_Clock_div, "Clock Cfg", doNothing, noEvent, wrapSt
        VALUE("1/16", 6, doNothing, noEvent),
        VALUE("1/32T", 4, doNothing, noEvent),
        VALUE("1/32", 3, doNothing, noEvent));
+
+TOGGLE(midiThru, subMenu_Midi_Thru, "MIDI THRU: ", doNothing, noEvent, wrapStyle,
+       VALUE("ON", true, doNothing, noEvent),
+       VALUE("OFF", false, doNothing, noEvent)
+);
+
 
 // RH I had to add submenus for each unit setup
 // the menu macros can't handle really large menu definitions
@@ -284,6 +291,11 @@ MENU(subMenu_UNIT_D_SETUP, "UNIT D", doNothing, noEvent, wrapStyle,
 
 MENU(subMenu_CLOCK_SETUP, "Clock CFG", doNothing, noEvent, wrapStyle,
      SUBMENU(subMenu_Clock_div),
+     EXIT("<Back")
+    );
+
+MENU(subMenu_MIDI_OUT, "MIDI OUT CFG", doNothing, noEvent, wrapStyle,
+     SUBMENU(subMenu_Midi_Thru),
      EXIT("<Back")
     );
 
@@ -341,6 +353,7 @@ MENU(mainMenu, "        SETUP", doNothing, noEvent, wrapStyle,
      SUBMENU(subMenu_IN_C_SETUP),
      SUBMENU(subMenu_IN_D_SETUP),
      SUBMENU(subMenu_CLOCK_SETUP),
+     SUBMENU(subMenu_MIDI_OUT),
      OP("Monitor In", enterMonitorMode, enterEvent),
      OP("MIDI Monitor", enterMidiMonitorMode, enterEvent),
      OP("Save Setup", savesetup, enterEvent),

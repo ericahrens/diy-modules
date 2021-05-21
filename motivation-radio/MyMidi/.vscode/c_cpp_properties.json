@@ -1,19 +1,21 @@
 {
     "configurations": [
         {
-            "name": "Mac",
+            "name": "Win32",
             "includePath": [
-                "/Users/eric/Documents/Arduino/hardware/espressif/esp32/**"
+                "${workspaceFolder}/**",
+                "C:/Users/Eric/Documents/Arduino/libraries/**",
+                "C:/Program Files (x86)/Arduino/hardware/teensy/avr/libraries/**",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/**",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/**",
+                "C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/"
             ],
-            "forcedInclude": [],
-            "macFrameworkPath": [
-                "/System/Library/Frameworks",
-                "/Library/Frameworks"
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
             ],
-            "intelliSenseMode": "clang-x64",
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c11",
-            "cppStandard": "c++17"
+            "intelliSenseMode": "gcc-x86"
         }
     ],
     "version": 4
