@@ -114,6 +114,10 @@ void HandleControlChange(byte channel, byte number, byte value) {
        else GATEout(i,1); // CC > 64=gate high. 
     }
   }
+  if(midiThru) {
+    MIDI.sendControlChange(number, value, channel);
+  }
+
 }
 
 #endif // MOTIVATION_RADIO_MIDI_H_
